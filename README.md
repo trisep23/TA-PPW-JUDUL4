@@ -19,16 +19,17 @@ Tujuannya adalah untuk mengimplementasikan materi dasar PHP, Form Handling, Sess
 - Username: trisep
 - Password: trisep
 - Menggunakan PHP Session untuk mengamankan halaman.
+
 Tampilan Login Page
 <img width="1918" height="964" alt="Login" src="https://github.com/user-attachments/assets/fc749452-f79a-4911-8b6a-f9e44e848128" />
 
-Daftar Kontak
+### 2. Daftar Kontak
+- Menampilkan semua kontak dalam tabel.
+- Fitur pencarian berdasarkan nama.
+- Tombol aksi Edit dan Hapus tampil sejajar dan rapi.
 
-Menampilkan semua kontak dalam tabel.
-
-Fitur pencarian berdasarkan nama.
-
-Tombol aksi Edit dan Hapus tampil sejajar dan rapi.
+Tampilan Daftar Kontak / Dashboard Sistem
+<img width="1915" height="965" alt="daftar kontak" src="https://github.com/user-attachments/assets/d1534b62-d927-4c57-ada4-ef40783bbcc4" />
 
 ➕ Tambah Kontak
 
