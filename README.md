@@ -37,7 +37,7 @@ _Tampilan Daftar Kontak / Dashboard Sistem_
 - Pesan error tampil langsung di bawah input.
 
 _Tampilan Tambah Kontak_
-![Uploading tambah kontak.png…]()
+<img width="1919" height="963" alt="tambah kontak" src="https://github.com/user-attachments/assets/a9911924-9850-4c01-81fa-7da3f756fc9e" />
 
 ### 4. Edit Kontak
 - Mengubah data kontak yang sudah ada.
