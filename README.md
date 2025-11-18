@@ -57,6 +57,10 @@ _Tampilan Hapus Kontak dan Validasi Hapus_
 ### 6. Logout
 - Menghapus session dan kembali ke halaman login.
 
+_Tampilan NavBar Logout_
+<img width="954" height="219" alt="Cuplikan layar 2025-11-18 133128" src="https://github.com/user-attachments/assets/3d600301-4b01-437e-9ca5-531c15c73397" />
+
+
 --- 
 
 18 November 2025
