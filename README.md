@@ -1,73 +1,55 @@
-📱 KontakKu
+# KontakKu – Sistem Manajemen Kontak Pribadi
 
-Aplikasi Manajemen Kontak Sederhana – Tugas Praktikum PPW
+---
 
-KontakKu adalah aplikasi web sederhana untuk mengelola daftar kontak seperti nama, nomor telepon, email, dan alamat.
-Aplikasi ini dibuat menggunakan PHP Native, Tailwind CSS, dan Session PHP tanpa database.
-Dikembangkan sebagai tugas Praktikum Pemrograman Web – Judul 4.
+KontakKu adalah aplikasi web untuk mengelola daftar kontak seperti nama, nomor telepon, email, dan alamat.
+Sistem ini dibuat menggunakan PHP Native, Tailwind CSS, dan Session PHP tanpa database.
+Dikembangkan sebagai tugas Praktikum Pemrograman Web.
 
-👩‍💻 Dibuat Oleh
+---
 
-Nama: Tri Septiani
-NPM: 2315061036
-Kelas: PW-C
+## Tujuan Proyek
+Proyek ini merupakan Tugas Akhir Praktikum Pemrograman Web Judul 4.
+Tujuannya adalah untuk mengimplementasikan materi dasar PHP, Form Handling, Session, dan penggunaan TailwindCSS dalam pembangunan aplikasi web yang sederhana, responsif, dan berjalan tanpa database.
 
-🚀 Fitur Utama
-🔐 1. Login
+---
 
-Form login dengan validasi session.
+## Fitur Utama
+### 1. Login
+- Username: trisep
+- Password: trisep
+- Menggunakan PHP Session untuk mengamankan halaman.
+Tampilan Login Page
+<img width="1918" height="964" alt="Login" src="https://github.com/user-attachments/assets/fc749452-f79a-4911-8b6a-f9e44e848128" />
 
-Username: trisep
+Daftar Kontak
 
-Password: trisep
+Menampilkan semua kontak dalam tabel.
 
-📂 2. Daftar Kontak
+Fitur pencarian berdasarkan nama.
 
-Menampilkan seluruh kontak yang tersimpan dalam session.
+Tombol aksi Edit dan Hapus tampil sejajar dan rapi.
 
-Fitur pencarian nama
+➕ Tambah Kontak
 
-Tombol Edit dan Hapus
+Semua field wajib diisi.
 
-Notifikasi setelah tambah/edit/hapus
+Validasi email otomatis (harus menggunakan format @).
 
-➕ 3. Tambah Kontak
+Pesan error tampil langsung di bawah input.
 
-Form untuk menambah kontak baru.
-
-Semua field wajib diisi
-
-Validasi email otomatis (harus format @)
-
-Error langsung muncul di bawah input
-
-✏️ 4. Edit Kontak
+✏️ Edit Kontak
 
 Mengubah data kontak yang sudah ada.
 
-Field otomatis terisi data lama
+Validasi tetap aktif sama seperti form tambah.
 
-Validasi tetap aktif
+🗑️ Hapus Kontak
 
-Notifikasi sukses setelah diperbarui
+Menggunakan halaman konfirmasi sebelum kontak benar-benar dihapus.
 
-🗑️ 5. Konfirmasi Hapus
+Menghindari salah klik (accidental delete).
 
-Menampilkan halaman konfirmasi sebelum menghapus kontak.
+Logout
 
-Menghindari salah klik
-
-Tombol Batal dan Ya, Hapus
-
-🚪 6. Logout
-
-Menghapus session
-
-Mengembalikan user ke halaman login
-
-🛠️ Teknologi yang Digunakan
-Teknologi	Fungsi
-PHP Native	Logika aplikasi & session
-HTML5	Struktur tampilan
-TailwindCSS (CDN)	Styling UI
-PHP Session	Penyimpanan kontak sementara
+Menghapus session dan kembali ke halaman login.
